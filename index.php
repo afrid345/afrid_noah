@@ -13,7 +13,7 @@
     test changement
 
 
-    <p>KArate kid</p>
+    <p>KArate kid KAratete</p>
 </body>
 
 </html>
