@@ -63,7 +63,7 @@ namespace mission2
 
         private void liaison_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            
         }
 
         private void textBox1_TextChanged_1(object sender, EventArgs e)
@@ -73,7 +73,8 @@ namespace mission2
 
         private void secteur_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            
+           
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)
@@ -83,6 +84,15 @@ namespace mission2
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
+
+        }
+
+        private void secteur_MouseEnter(object sender, EventArgs e)
+        {
+            int id = (secteur.SelectedIndex)+1;
+            String name = secteur.GetItemText(secteur.SelectedItem);
+
+            liaison = secteur.
 
         }
     }

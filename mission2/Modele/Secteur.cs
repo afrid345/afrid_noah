@@ -12,7 +12,7 @@ namespace mission2.Modele
     {
         private int id;
         private String libelle;
-        private liaison l1;
+       
 
       
         public Secteur(int id, string libelle)

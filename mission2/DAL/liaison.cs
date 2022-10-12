@@ -20,6 +20,10 @@ namespace mission2.Controleur
 
         private static MySqlCommand con;
 
+        public String chargementLaiBd()
+        {
+
+        }
      
 
 
